@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTableWebApps", "AzureTableWebApps\AzureTableWebApps.csproj", "{415EA2E1-9F75-4590-83C1-C6E2AA0F96E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{1A0808F5-E446-43F2-AEFF-BA078FC55D08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{E74852AD-CC1B-4587-B6E0-9B164F146F88}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{9187B732-2DB9-4F9D-A605-195B086C785C}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\AzureTableWebApps.json = PublishScripts\Templates\AzureTableWebApps.json
+		PublishScripts\Templates\AzureTableWebApps.param.dev.json = PublishScripts\Templates\AzureTableWebApps.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{415EA2E1-9F75-4590-83C1-C6E2AA0F96E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415EA2E1-9F75-4590-83C1-C6E2AA0F96E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415EA2E1-9F75-4590-83C1-C6E2AA0F96E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415EA2E1-9F75-4590-83C1-C6E2AA0F96E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E74852AD-CC1B-4587-B6E0-9B164F146F88} = {1A0808F5-E446-43F2-AEFF-BA078FC55D08}
+		{9187B732-2DB9-4F9D-A605-195B086C785C} = {1A0808F5-E446-43F2-AEFF-BA078FC55D08}
+	EndGlobalSection
+EndGlobal
