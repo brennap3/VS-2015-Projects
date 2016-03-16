@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppAspNetSample", "WebAppAspNetSample\WebAppAspNetSample.csproj", "{9F0F0939-4594-479E-9EF6-8BC7C841BF15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{B0A1D559-C1ED-42A1-B4BD-76CA5C459EC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{FEFBB970-8590-4EC7-A8EA-DBE6BC49E309}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{CAE9CFF1-0948-40A0-80C9-727B49608CCB}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\WebAppAspNetSample.json = PublishScripts\Templates\WebAppAspNetSample.json
+		PublishScripts\Templates\WebAppAspNetSample.param.dev.json = PublishScripts\Templates\WebAppAspNetSample.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F0F0939-4594-479E-9EF6-8BC7C841BF15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0F0939-4594-479E-9EF6-8BC7C841BF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0F0939-4594-479E-9EF6-8BC7C841BF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0F0939-4594-479E-9EF6-8BC7C841BF15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FEFBB970-8590-4EC7-A8EA-DBE6BC49E309} = {B0A1D559-C1ED-42A1-B4BD-76CA5C459EC7}
+		{CAE9CFF1-0948-40A0-80C9-727B49608CCB} = {B0A1D559-C1ED-42A1-B4BD-76CA5C459EC7}
+	EndGlobalSection
+EndGlobal
